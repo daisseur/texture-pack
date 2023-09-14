@@ -1,5 +1,5 @@
 echo "starting zip..."
-zip -r ./CustomImagesServer.zip CustomImagesServer/
+zip -r ./CustomImagesServer.zip CustomImagesServer/*
 sha1sum CustomImagesServer.zip > CustomImagesServer.sha1
 git add .
 git commit -m "$*"
