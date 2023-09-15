@@ -1,5 +1,7 @@
 echo "starting zip..."
 rm ./CustomImagesServer.zip
+git rm --cached *py
+git rm --cached *sh
 cd CustomImagesServer/
 zip -r ../CustomImagesServer.zip *
 cd ..
